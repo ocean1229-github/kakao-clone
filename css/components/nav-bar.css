@@ -4,7 +4,7 @@
     width: 100%;
     background-color: #f9f9fa;
     padding: 20px 50px;
-    box-sizing: border-box;
+    box-sizing: border-box;     /* box사이즈 200을 가진채로 padding 넣으면 원하던 크기에 + padding된 값만큼 크기가 커진다. 그걸 방지함 padding해도 크기200 유지*/
     border-top: 1px solid rgba(121, 121, 121, 0.3)
 }
 
