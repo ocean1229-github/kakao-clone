@@ -1,6 +1,8 @@
 /* 카카오톡의 색상을 color picker로 가져온 것 */
-
+/* 같은 코드를 여러번 쓴다면 이렇게 변수로 만들어 놓는 것이 좋다 */
 :root{
     --yellow: #fae100;
     --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+    --gray: rgba(0, 0, 0, 0.5);
 }
