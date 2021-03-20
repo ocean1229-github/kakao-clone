@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Kakao Clone</title>
+    <link rel="stylesheet" href="css/css.css"
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column"> <!-- BEM - class명을 구체적으로 가져야하는 이유 -->
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>              
+        </div>
+        <div class="status-bar__column">                
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>   <!-- fa-lg는 사이즈 명으로 이걸로 사이즈를 조절 할 수 있다. 여러가지 종류가 많음-->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <main class="main-screen">
+
+    </main>
+
+    <nav class="nav">           <!-- nav>ul>li*4>a -->
+        <ul class="nav__list">                     
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                    <span class="ellipsis__notification"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/33699a7c68.js" crossorigin="anonymous"></script>
+    <!-- fontawesome에서 로그인후 나의 정보에서 무료키트 스크립트를 바디 제일 아래쪽에 넣어둔다 -->
+</body>
+
+</html>
