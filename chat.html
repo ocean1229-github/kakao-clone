@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - Kakao Clone</title>
-    <link rel="stylesheet" href="css/css.css"
+    <title>Chat w/ Nico - Kakao Clone</title>
+    <link rel="stylesheet" href="css/css.css">
 </head>
-<body>
+<body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column"> <!-- BEM - class명을 구체적으로 가져야하는 이유 -->
             <span>No Service</span>
@@ -31,64 +31,17 @@
             </a>
             </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Settings</h1>
+            <h1 class="alt-header__title">니꼬</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
         </div>
     </header>
     
     <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-bullhorn"></i>
-                    <span>Notices</span>
-                </div>
-                <div class="settings__setting-column"></div>
-            </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-flask"></i>
-                    <span>Kakao Lab</span>
-                </div>
-                <div class="settings__setting-column"></div>
-            </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-question-circle"></i>
-                    <span>Version</span>
-                </div>
-                <div class="settings__setting-column">Latest Version</div>
-            </li>
-        </ul>
-    </main>
 
-    <nav class="nav">           <!-- nav>ul>li*4>a -->
-        <ul class="nav__list">                     
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html">
-                    <i class="fas fa-search fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <i class="fas fa-ellipsis-h fa-2x"></i>
-                    <span class="ellipsis__notification"></span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+    </main>
 
     <script src="https://kit.fontawesome.com/33699a7c68.js" crossorigin="anonymous"></script>
     <!-- fontawesome에서 로그인후 나의 정보에서 무료키트 스크립트를 바디 제일 아래쪽에 넣어둔다 -->
