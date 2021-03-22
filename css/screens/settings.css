@@ -13,6 +13,8 @@
     font-size: 22px;
 }
 
+/* i 기호의 경우 저렇게 i라고 표시 안해주면 실제 아이콘에 적용이 되지 않음 */
+
 .settings__setting-column:last-child{
     opacity: 0.5;
 }
