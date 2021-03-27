@@ -67,7 +67,7 @@
 }
 
 .open-post__member-count .divider{
-    width: 1px;
+    width: 2px;
     height: 15px;
     margin: 0 5px;
     background-color: var(--gray);
